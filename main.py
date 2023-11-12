@@ -4,4 +4,4 @@ filepath="D:\parupadis\GIT-HUB\Image-Compressor2\image.png"
 
 picture=Image.open(filepath)
 
-picture.save("Compressed","png", optimize=True, quality=10)
+picture.save("10%","jpeg", optimize=True, quality=10)
